@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* login form style area */
+
+.login-page{
+   position: absolute;
+   width: 80%;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   justify-content: space-between;
+}
+.login-form form{
+    background: #fff;
+    box-shadow: 0 0 10px  #a4a2a2;
+    height: 400px;
+    padding: 30px;
+    border-radius: 6px;
+}
+.login-form input{
+    display: block;
+    margin-top: 15px;
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #1876f2;
+    outline: none;
+}
+.login-text{
+    padding: 50px;
+    margin: 60px auto;
+}
+.login-text h1{
+    font-size: 55px;
+    color: #1876f2;
+    text-transform: lowercase;
+}
+.login-text p{
+    font-size: 22px;
+    width: 70%;
+    text-transform: lowercase;
+}
+input[type=button].blue{
+    background: #1876f2;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+}
+.login-form form a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    color: #000;
+}
+.p-texts{
+    text-align: center;
+    margin: 15px 0;
+}
+#create{
+    align-items: center;
+}
+#create{
+    text-align: center;
+    width: 70%;
+    margin: 10px auto;
+}
+#create input{
+    width: 100%;
+    height: 100%;
+    background: rgb(7, 151, 21);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+.p-text2{
+    text-align: center;
+    margin: 20px 0;
+}
+.p-text2 p span{
+    color: #000;
+    font-weight: 900;
+    text-transform: lowercase;
+}
+
+
+/* signin form designing area */
+.blur{
+    position: relative;
+    background-color: rgba(231, 228, 228, 0.2);
+    width: 100%;
+    height: 100%;
+}
+.popup{
+  position: relative;
+  top: 350px;
+  left: 50%;
+  opacity: 0;
+  z-index: 100;
+  width: 40%;
+  transform: translate(-50%, -50%) scale(1);
+  padding: 20px 30px;
+  background: #fff;
+  box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  transition:opacity 0.3s ;
+}
+.popup.active{
+    opacity: 1;
+}
+#blur.act{
+    backdrop-filter: blur(12px);
+}
+.close-btn{
+    font-size: 22px;
+    cursor: pointer;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.popup hr{
+    border: 0;
+    height: 1px;
+    color: #ccc;
+}
+.from-input1{
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+    margin-top: 14px;
+    width: 100%;
+}
+.from-input1 input{
+    height: 40px;
+    margin-right: 10px;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+}
+.form-input2 input{
+    width: 98%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 19px;
+    outline: none;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+    width: 98%;
+}
+.date #date{
+    flex-basis: 30%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.date #month{
+    flex-basis: 30%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.date #year{
+    flex-basis: 30%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.gender{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+    width: 98%;
+}
+.gender .f,.m,.c{
+    padding: 10px;
+    border: 1px solid black;
+    flex-basis: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.gender input{
+    text-align: center;
+}
+p{
+    margin-top: 14px;
+}
+.text-p{
+    font-size: 12px;
+    text-align: justify;
+    font-style: italic;
+}
+.btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.sign{
+    padding: 10px;
+    background-color: rgb(7, 151, 21);
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
